@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist/ng-netlify-starter"
+  functions = "api"
+
+[dev]
+  command = "ng serve"
+  port = 4200
+  functionPort = 3000
+  publish = "dist/ng-netlify-starter"

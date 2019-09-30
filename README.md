@@ -1,18 +1,26 @@
 # NgNetlifyStarter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+This project shows how we can use Angular CLI project with Nelity Dev.
+
+## Checkout the tutorial
+
+[![](http://img.youtube.com/vi/TVhApNKX0jA/0.jpg)](http://www.youtube.com/watch?v=TVhApNKX0jA "Getting Started With Angular and Netlify Dev")
+
+## Prereqisites
+
+Install Angular CLI and Zeit Now Globally on the local machine `npm install -g @angular/cli netlify-cli`
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `netlify dev` for a dev server. Navigate to `http://localhost:8888/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## API (Serverless Functions)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You can create a new file inside the `api` directory. Then to access the function, you can go to `http://localhost:3000/api/{filename}`
 
-## Build
+## Deploy
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `netlify deploy --prod` to deploy the project.
 
 ## Running unit tests
 
@@ -21,7 +29,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
